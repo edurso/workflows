@@ -11,7 +11,7 @@ A collection of fairly useful GitHub Actions Workflows for Gradle Java Projects
 To add these actions to a gradle project, this repository can be added as a submodule by running the followning command in the root directory of the project repository:
 
 ```bash
-git submodule add git@github.com:edurso/workflows.git .github/
+git submodule add git@github.com:edurso/workflows.git .github/workflows
 ```
 
 ## List of Actions
