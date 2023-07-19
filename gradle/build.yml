@@ -12,10 +12,11 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
-    - name: Config JDK 11
-      uses: actions/setup-java@v1
+    - name: Config JDK 17
+      uses: actions/setup-java@v3
       with:
-        java-version: 11
+        distribution: 'adopt'
+        java-version: 17
     - name: Make gradlew Executable
       run: chmod +x ./gradlew
     - name: Execute Build
